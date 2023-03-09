@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;   
+    color: white;
+}
+
+body{
+    font-family: $ff-primary;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 99px;
+    font-weight: 700;
+    line-height: 99px;
+}
+
+h2{
+    font-size: 33px;
+    line-height: 49.5px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
