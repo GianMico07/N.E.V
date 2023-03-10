@@ -26,6 +26,12 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </nav>
+
+                <div class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 </div>
             </div>
         </header>
@@ -171,29 +177,32 @@
                     </div>
 
                     <div class="categories__wrapper d--flex">
-                        <div class="category-type d--flex">
-                            <h6 class="mb--2">Services</h6>
-
-                            <a href="">By Land</a>
-                            <a href="">By Air</a>
-                            <a href="">By Sea</a>
+                        <div class="categories-type d--flex justify--between">
+                            <div class="category-type d--flex">
+                                <h6 class="mb--2">Services</h6>
+    
+                                <a href="">By Land</a>
+                                <a href="">By Air</a>
+                                <a href="">By Sea</a>
+                            </div>
+    
+                            <div class="category-type d--flex">
+                                <h6 class="mb--2">Tours</h6>
+    
+                                <a href="">Lorem Ipsum</a>
+                                <a href="">Dolor Sit</a>
+                                <a href="">Vivamus</a>
+                            </div>
+    
+                            <div class="category-type d--flex">
+                                <h6 class="mb--2">Quicklinks</h6>
+    
+                                <a href="">About Us</a>
+                                <a href="">Contact Us</a>
+                                <a href="">History</a>
+                            </div>
                         </div>
-
-                        <div class="category-type d--flex">
-                            <h6 class="mb--2">Tours</h6>
-
-                            <a href="">Lorem Ipsum</a>
-                            <a href="">Dolor Sit</a>
-                            <a href="">Vivamus</a>
-                        </div>
-
-                        <div class="category-type d--flex">
-                            <h6 class="mb--2">Quicklinks</h6>
-
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">History</a>
-                        </div>
+                        
 
                         <div class="bncu-cont d--flex text--center">
                             <a class="btn bg--primary" href="">BOOK NOW</a>
@@ -220,7 +229,15 @@
             </div>
         </footer>
 
+        <script>
+            const nav = document.querySelector("nav");
+            const togglemenu = document.querySelector(".menu");
 
+            togglemenu.addEventListener("click", ()=>{
+            togglemenu.classList.toggle("open");
+            nav.classList.toggle("open");
+        })
+        </script>
     
     
     
